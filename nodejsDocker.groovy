@@ -1,4 +1,4 @@
-job('NodeJS Groovy Project') {
+job('NodeJS Groovy Project Second') {
     scm {
         git('git://github.com/isurupathumherath/devops-sample.git') {
             node ->
