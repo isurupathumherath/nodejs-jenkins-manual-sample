@@ -7,7 +7,7 @@ job('NodeJS Groovy Project') {
         }
     }
 
-    trigger {
+    triggers {
         scm('H/5 * * * *')
     }
 
