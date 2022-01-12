@@ -21,7 +21,7 @@ job('NodeJS Groovy Project') {
             tag('${GIT_REVISION, length=9}')
             registryCredentials('dockerhub')
             forcePull(false)
-            createFingerprint(false)
+            createFingerprints(false)
             skipDecorate()
         }
     }
